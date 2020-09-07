@@ -8,7 +8,13 @@ h3,h2{
 }
 
 
+a:link{
+    color:firebrick
+}
 
+a:visited{
+    color:turquoise
+}
 
 .header{
     border:solid;
@@ -52,4 +58,20 @@ body{
     border-radius: 20px;
     background-color: #ffffff;
     font-family:fantasy;
+}
+
+.yeet{
+    position: relative;
+}
+
+.yeet p{
+    position: absolute;
+    top:50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+opacity:0;
+}
+
+.yeet:hover p{
+    opacity: 1;
 }
